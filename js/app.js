@@ -3085,7 +3085,7 @@
             const button = wrapper.querySelector(".toggle-language-selector");
             const mainTextCont = document.querySelector(".offer__text");
             const aboutListCont = document.querySelector(".content-block__text");
-            const skillsListCont = document.querySelector(".content-block__text");
+            const skillsListCont = document.querySelector(".page__hard-skills .content-block__text");
             function changeLanguage(language) {
                 const texts = JSON.parse(JSON.stringify(tests_namespaceObject[language]));
                 mainTextCont.textContent = texts.main_block_text;
