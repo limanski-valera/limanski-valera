@@ -1,0 +1,38 @@
+//====================================================================================================
+.footer {
+    color: $whiteColor;
+    text-align: center;
+    padding: toRem(20) 0;
+    font-size: toRem(14);
+    font-weight: 700;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: $redColor;
+        transition: width 1s;
+    }
+    &._watcher-view::before {
+        width: 100%;
+    }
+    &__container {
+        position: relative;
+        z-index: 2;
+        opacity: 0;
+        opacity: 0;
+        transform: translateY(10px);
+        ._watcher-view & {
+            transition: opacity .5s 1s, transform .5s 1s;
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    &__text {
+    }
+}
+
+//====================================================================================================

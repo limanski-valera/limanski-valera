@@ -1,0 +1,111 @@
+.header {
+    padding: toRem(20) 0;
+    font-weight: 700;
+    color: $whiteColor;
+    background-color: $redColor;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: top 0.5s;
+    &._header-scroll {
+        top: toRem(-200);
+    }
+    &._header-show {
+        top: 0;
+    }
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: toRem(50);
+        justify-content: space-between;
+        @media (max-width: $mobile) {
+            justify-content: flex-start;
+        }
+    }
+    &__logo {
+        font-size: toRem(20);
+        position: relative;
+        z-index: 5;
+        @keyframes logo {
+            0% {
+                transform: rotate(0);
+            }
+            33% {
+                transform: rotate(3deg);
+            }
+            66% {
+                transform: rotate(-3deg);
+            }
+            100% {
+                transform: rotate(0);
+            }
+        }
+        @media (any-hover: hover) {
+            &:hover {
+                animation: 1s cubic-bezier(0.17, 0.67, 1, 1.23) logo;
+            }
+        }
+        @media (max-width: $mobile) {
+            flex: 1 1 auto;
+        }
+    }
+    &__menu {
+        @media (max-width: $mobile) {
+            order: 3;
+        }
+    }
+    &__language-select {
+    }
+}
+.menu {
+    &__icon {
+    }
+    &__body {
+    }
+    &__list {
+        display: flex;
+        gap: toRem(50);
+        flex-wrap: wrap;
+    }
+    &__item {
+    }
+    &__link {
+        font-weight: 700;
+        position: relative;
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            height: toRem(2);
+            width: 0;
+            background-color: $whiteColor;
+            transition: width 0.3s;
+            pointer-events: none;
+            opacity: 0;
+        }
+        &::before {
+            left: 0;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        &::after {
+            right: 0;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        @media (any-hover: hover) {
+            &:hover {
+                &::before,
+                &::after {
+                    opacity: 1;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+.icon-menu {
+}
