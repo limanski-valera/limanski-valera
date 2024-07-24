@@ -1,0 +1,46 @@
+{
+	"uk": {
+		"main_block_text": "Професійно розробляю сайти та веб-додатки будь-якої складності. Хворію на щоденне самовдосконалення. Прагну створювати сайти що надихають.",
+		"about_list": [
+			"Успішно підвищів свої скіли закінчивши курси:",
+			"“Верстка сайтів” від Євгена Андріканіча;",
+			"“Курс з Vue.js” від Андрія Брили;",
+			"Наразі працюю із фріланс замовленнями.",
+			"Є великий досвід в верстці сайтів та досвід створення веб додатків на Vue.",
+			"Добре самоорганізовуюсь та вмію вирішувати складні та нестандартні завдання. Легко знаходжу необхідну інформацію та працюю з технічною документацією. Вмію працювати в команді та знаходити спільну мову.",
+			"Мій рівень володіння Англійскою - А1."
+		],
+		"hard_skills_list": [
+			"JavaScript (ES5 та ES6 синтаксис) - робота з DOM, функціональне та об`єктно-орієтовне програмування, робота з API, робота з AJAX.",
+			"Успішно використовую npm модулі.",
+			"Працюю з CSS препроцесором SASS в синтаксі SCSS.",
+			"Є досвід роботи з Vue, звісно є розуміння що таке SPA та для чого це, хуки життєвого циклу компонентів, робота з Vue Router (захищєння маршрутів, динамічні маршрути, перенаправлення). Вмію парцювати в стилях compositions та options API.",
+			"Працюю зі state менеджерами VUEX та Pinia.",
+			"Досвід роботи зі збирачами проєктів Gulp, Webpack та Vite.",
+			"Робота з Firestore та Firebase.",
+			"Працюю з системою контролю версій GIT."
+		]
+	},
+	"en": {
+		"main_block_text": "I professionally develop websites and web applications of any complexity. I am passionate about daily self-improvement. I strive to create inspiring websites.",
+		"about_list": [
+			"Successfully increased your skills after completing the courses:",
+			"Website layout by Yevhen Andrikanich;",
+			"“Vue.js Course” by Andriy Bryla;",
+			"Currently, I work with freelance orders.",
+			"He has extensive experience in website layout and experience in creating web applications on Vue.",
+			"I am well-organized and able to solve complex and non-standard tasks. I can easily find the necessary information and work with technical documentation. I am able to work in a team and find a common language.",
+			"My level of English is A1."
+		],
+		"hard_skills_list": [
+			"JavaScript (ES5 and ES6 syntax) - working with the DOM, functional and object-oriented programming, working with APIs, working with AJAX.",
+			"I successfully use npm modules.",
+			"I work with SASS CSS preprocessor in SCSS syntax.",
+			"I have experience working with Vue, of course, I understand what SPA is and what it is for, component lifecycle hooks, work with Vue Router (route protection, dynamic routes, redirects). I know how to work with compositions styles and API options.",
+			"I work with the state managers of VUEX and Pinia.",
+			"Experience with Gulp, Webpack, and Vite project builders.",
+			"Working with Firestore and Firebase.",
+			"I work with the GIT version control system."
+		]
+	}
+}
